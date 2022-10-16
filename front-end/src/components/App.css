@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+.ul{
+  margin: 0px;
+  padding:6px;
+  background-color: rgb(85, 81, 81);
+}
+ 
+.ul li{
+   display: inline-block;
+   padding: 10px;
+}
+.ul li a{
+  
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.leftalign{
+text-align: right;
+padding-right: 30px;
+}
+.inputBox{
+  font-size: 15px;
+  display: block;
+  padding: 6px;
+  width :25%;
+  text-align: center;
+  margin: auto;
+  margin-top: 12px;
+  border: 3px solid rgb(71, 65, 65);
+
+}
+.searchbox{
+  position: absolute;
+  left: 570px;
+  top: 150px;
+  padding :7px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  border: 3px solid rgb(71, 65, 65);
+  font-size: 15px;
+}
+ 
+.product-list{
+text-align: center;
+
+margin-top: 0px;
+
+
+}
+.product-list ul li{
+display: inline-block;
+padding: 9px 0px;
+border: 2px solid grey;
+font-size: 15px;
+width: 140px;
+margin:0px;
+height:25px
+
+
+}
+
+
+.product-list ul{
+ margin: 0px;
+
+  
+}
+
+
+
+.invalid{
+  color:red;
+  position: relative;
+  left: -106px;
+}
+.button{
+  font-size: 13px;
+  display: block;
+  padding: 6px;
+  width :10%;
+  text-align: center;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  border: 3px solid rgb(71, 65, 65);
+  background-color: rgb(118, 170, 172);
+  border-radius: 10px;
+}
+.button:hover{
+
+  border: 3px solid rgb(41, 31, 31);
+  background-color: rgb(49, 89, 90);
+  
+}
+
+.footer{
+  position: absolute;
+  width:100%;
+  text-align: center;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
